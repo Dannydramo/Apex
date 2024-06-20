@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <ParentLayout>
-            <footer className="bg-[#095A66] text-[#B5CDD1] rounded-lg p-4 md:p-6 lg:px-8 lg:py-12">
+            <footer className="bg-[#095A66] text-[#B5CDD1] rounded-lg p-4 md:p-6 lg:px-8 lg:py-12 mb-[-3rem] sm:mb-[-2rem]">
                 <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
                     <div className="flex flex-col space-y-12">
                         <Image
